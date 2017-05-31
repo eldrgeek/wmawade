@@ -1,0 +1,119 @@
+.CodeMirror {
+    height: 600px;
+}
+.cm-header{
+    font-size: 20px;
+}
+.cm-error{
+    font-size: 20px;
+}
+.cm-category,  .cm-context{
+    color: blue;
+    font-size: 20px;
+}
+.cm-markdownlink{
+    color: green;
+    background-color: #ddd;
+}
+.cm-markdowntarget{
+    color: blue;
+    background-color: #ddd;
+}
+.logdata {
+    background-color: palegoldenrod;
+    margin-top: -15px;
+    margin-left: 5px;
+    z-index: 2;
+ }
+ .errormessage {
+    background-color: palevioletred;
+    border: 1px solid black;
+    z-index: 2;
+    margin-top: -15px;
+    margin-left: 5px;
+ }
+ .gdtContainer {
+     display: grid;
+     grid-template: "gdt code" 1fr/50% 50%;
+ }
+.gdtCode {
+    grid-area: code;
+}
+.gdtEditor {
+    grid-area: gdt;
+}
+.breakpoint-gutter {
+    width: 0.7em;
+}
+.arrow-gutter{
+width: 0.7em;
+}
+.breakpoint, .breakdot {
+
+	border-radius: 50%;
+	width: 0.5em;
+	height: 0.5em;
+    
+    margin:4px 2px 0px -3px;
+    border: 1px solid black;
+
+	/* width and height can be anything, as long as they're equal */
+}
+
+.breakpoint {
+    background-color: red;
+	/* width and height can be anything, as long as they're equal */
+}
+.breakdot {
+	
+    background-color: green;
+	/* width and height can be anything, as long as they're equal */
+}
+.arrow {
+	width: 0; 
+	height: 0; 
+	border-bottom: 0.7em solid transparent;  /* left arrow slant */
+	border-top: 0.7em solid transparent; /* right arrow slant */
+	border-left: 0.7em solid blue; /* bottom, add background color here */
+	font-size: 9pt;
+	line-height: 0;
+}
+.lightBlue {
+    background-color: lightblue;
+
+}
+/*@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/MaterialIcons-Regular.eot); //For IE6-8
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+    url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  // Preferred icon size
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  //Support for all WebKit browsers. 
+  -webkit-font-smoothing: antialiased;
+  // Support for Safari and Chrome.
+  text-rendering: optimizeLegibility;
+
+  //Support for Firefox. 
+  -moz-osx-font-smoothing: grayscale;
+
+  //Support for IE.
+  font-feature-settings: 'liga';
+}*/
